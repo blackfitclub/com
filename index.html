@@ -84,7 +84,7 @@
     .hero {
       height: 100vh;
       background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url('BG.jpg') center center / cover no-repeat;
+        url('BG.webp') center center / cover no-repeat;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -167,7 +167,6 @@
 
 
 
-
 <!-- 🔥 ACHIEVEMENTS SECTION -->
 <section class="achievements" id="achievements">
   <div class="container">
@@ -201,8 +200,7 @@
   </div>
 </section>
 
-<!-- ✅ MODALS -->
-<!-- Repeat for modal1 - modal4 with different content -->
+<!-- ✅ MODALS (POPUPS) -->
 <div id="modal1" class="popup-modal">
   <div class="popup-content">
     <span class="close-btn" onclick="closePopup('modal1')">&times;</span>
@@ -221,7 +219,6 @@
   </div>
 </div>
 
-<!-- ✅ MODAL 3: Natural Training Philosophy Timeline -->
 <div id="modal3" class="popup-modal">
   <div class="popup-content">
     <span class="close-btn" onclick="closePopup('modal3')">&times;</span>
@@ -252,7 +249,6 @@
   </div>
 </div>
 
-<!-- ✅ MODAL 4: Blackfit Journey Timeline -->
 <div id="modal4" class="popup-modal">
   <div class="popup-content">
     <span class="close-btn" onclick="closePopup('modal4')">&times;</span>
@@ -282,7 +278,6 @@
     </div>
   </div>
 </div>
-
 
 
 
@@ -446,6 +441,9 @@
   }
 </style>
 
+
+
+
 <!-- ✅ JAVASCRIPT -->
 <script>
   const counters = document.querySelectorAll('.counter');
@@ -475,12 +473,11 @@
 
   let scrollInterval = null;
   const galleries = {
-    modal1: { id: 'transformGallery', folder: 'transformations', index: 1 },
+    modal1: { id: 'transformGallery', folder: 'transform', index: 1 },
     modal2: { id: 'clientsGallery', folder: 'clients', index: 1 },
-    modal3: { id: 'naturalGallery', folder: 'natural', index: 1 },
-    modal4: { id: 'experienceGallery', folder: 'experience', index: 1 }
   };
-  const totalImages = 10;
+
+  const totalImages = 20;
   const batchSize = 20;
 
   function openPopup(id) {
@@ -502,7 +499,7 @@
     const gallery = document.getElementById(galleryData.id);
     for (let i = galleryData.index; i < galleryData.index + batchSize && i <= totalImages; i++) {
       const img = document.createElement('img');
-      img.src = `images/${galleryData.folder}/${galleryData.folder}${i}.jpg`;
+      img.src = `${galleryData.folder}${i}.webp`; // ✅ Now from main folder
       img.alt = `${galleryData.folder} ${i}`;
       gallery.appendChild(img);
     }
@@ -527,6 +524,7 @@
     clearInterval(scrollInterval);
   }
 </script>
+
 
 
 
