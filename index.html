@@ -12,173 +12,322 @@
   <!-- AOS Animate on Scroll CSS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!-- Google Font: Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<!-- Open Graph Meta for Social Sharing -->
-<meta property="og:title" content="Blackfit Unisex Gym 💪 | Tiruppur’s Premium Fitness Studio" />
-<meta property="og:description" content="🏋️‍♂️ Join Premium Blackfit Unisex Gym Today! 💥" />
-<meta property="og:image" content="https://purehtmlofficial.github.io/Black/og-image.jpg" />
-<meta property="og:url" content="https://purehtmlofficial.github.io/Black/" />
-<meta property="og:type" content="website" />
-<meta name="theme-color" content="#000000" />
+  <!-- Open Graph Meta for Social Sharing -->
+  <meta property="og:title" content="Blackfit Unisex Gym 💪 | Tiruppur’s Premium Fitness Studio" />
+  <meta property="og:description" content="🏋️‍♂️ Join Premium Blackfit Unisex Gym Today! 💥" />
+  <meta property="og:image" content="https://purehtmlofficial.github.io/Black/og-image.jpg" />
+  <meta property="og:url" content="https://purehtmlofficial.github.io/Black/" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#000000" />
 
-<!-- ✅ Open Graph Meta Tags -->
-<meta property="og:title" content="Blackfit Unisex Gym 💪 | Tiruppur’s Premium Fitness Studio" />
-<meta property="og:description" content="🏋️‍♂️ Join Blackfit Today! Get Fit with Modern Equipment and Expert Trainers!" />
-<meta property="og:image" content="https://blackfitclub.github.io/com/og-image.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://blackfitclub.github.io/com/" />
-<meta property="og:type" content="website" />
-
-
-
-
-  <!-- Custom Styles -->
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body, html {
-      font-family: 'Bebas Neue', sans-serif;
-      scroll-behavior: smooth;
-      background-color: #000;
-      color: #f6d743;
-    }
-
-    .top-banner {
-      background-color: #111;
-      color: #f6d743;
-      padding: 12px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      font-size: 1rem;
-      border-bottom: 2px solid #f6d743;
-    }
-
-    .top-banner .left {
-      font-size: 1.5rem;
-      flex: 1 1 auto;
-    }
-
-    .top-banner .right {
-      display: flex;
-      flex: 1 1 auto;
-      justify-content: flex-end;
-      align-items: center;
-      gap: 15px;
-      flex-wrap: wrap;
-    }
-
-    .top-banner .right a {
-      color: #f6d743;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 1rem;
-      transition: color 0.3s ease;
-    }
-
-    .top-banner .right a:hover {
-      color: #fff;
-    }
-
-    .hero {
-      height: 100vh;
-      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url('BG.webp') center center / cover no-repeat;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 0 20px;
-    }
-
-    .hero h1 {
-      font-size: clamp(2rem, 8vw, 4.5rem);
-      letter-spacing: 2px;
-      line-height: 1.3;
-      animation: glow 1.5s ease-in-out infinite alternate;
-      max-width: 90%;
-    }
-
-    @keyframes glow {
-      from {
-        text-shadow: 0 0 5px #000000, 0 0 10px #00000088;
-      }
-      to {
-        text-shadow: 0 0 5px #ff5733, 0 0 20px #ff5733aa;
-      }
-    }
-
-    /* Responsive Improvements */
-    @media (max-width: 768px) {
-      .top-banner {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-      }
-
-      .top-banner .right {
-        justify-content: flex-start;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .hero h1 {
-        font-size: 2rem;
-      }
-
-      .top-banner .left {
-        font-size: 1.3rem;
-      }
-
-      .top-banner .right a {
-        font-size: 0.9rem;
-        gap: 4px;
-      }
-    }
-  </style>
 </head>
-
 <body>
 
-  <!-- Top Banner -->
-  <div class="top-banner">
-    <div class="left">Black Fit Unisex Gym</div>
-    <div class="right">
-      <a href="https://www.instagram.com/blackfit_unisex_gym" target="_blank" aria-label="Instagram">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://wa.me/919894100280" class="fab fa-whatsapp" target="_blank" aria-label="WhatsApp">
-      </a>
-       <a href="tel:+919894100280" >
-      +91 98941 00280    </a>
-      <a href="mailto:blackfitclub@gmail.com" aria-label="Email">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </div>
+<!-- Top Banner -->
+<div class="top-banner">
+  <div class="left" onclick="scrollToTop()">
+    <div class="brand-title">Black Fit Unisex Gym &</div>
+    <div class="brand-subtitle">Pain-Free Stretching Expert</div>
   </div>
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+  <div class="right">
+    <button class="hamburger" id="menuBtn" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</div>
 
-  <!-- Hero Section -->
-  <section id="hero" class="hero">
-    <h1>
-      Advanced Body Physique <br>  Transformation Specialist Coach
-    </h1>
-  </section>
+<!-- Popup Menu -->
+<div class="popup-overlay" id="popup">
+  <div class="popup-content">
+    <button class="close-btn" id="closeBtn">&times;</button>
+    <h2>Visit Us</h2>
+    <a href="https://maps.app.goo.gl/RZP1twE1x6bhCvakQ" target="_blank">📍 Google Maps (Location)</a>
+    <a href="tel:+919894100280">📞 +91 98941 00280</a>
+    <a href="mailto:blackfitclub@gmail.com">✉️ blackfitclub@gmail.com</a>
+    <a href="https://www.instagram.com/blackfit_unisex_gym" target="_blank">
+      <i class="fab fa-instagram"></i> Instagram 
+    </a>
+    <a href="https://wa.me/919894100280" target="_blank">
+      <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
+  </div>
+</div>
 
+<!-- Hero Section -->
+<section id="hero" class="hero">
+  <div class="hero-content">
+    <h1>ADVANCED BODY PHYSIQUE TRANSFORMATION AND WELLNESS EXPERT</h1>
+    <p class="hero-subline">Body Pain Free <br> Wellness Stretching Expert!</p>
+    <button class="primary-btn" onclick="openPopup()">Relief Your Pain 😇</button>
+  </div>
+</section>
 
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body, html {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #000;
+    color: #f6d743;
+  }
+
+  /* Sticky Top Banner */
+  .top-banner {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #111;
+    color: #f6d743;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #f6d743;
+    z-index: 1000;
+  }
+
+  .top-banner .left {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  .brand-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .brand-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #f1f1f1; 
+  }
+
+  .top-banner .hamburger {
+    background: none;
+    border: none;
+    color: #f6d743;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  /* Popup Overlay */
+  .popup-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.95);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+  }
+
+  .popup-content {
+    background: #111;
+    border: 2px solid #f6d743;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    color: #f6d743;
+    position: relative;
+    box-shadow: 0 0 20px rgba(246, 215, 67, 0.3);
+  }
+
+  .popup-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+
+  .popup-content a {
+    display: block;
+    margin: 15px 0;
+    color: #f6d743;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 600;
+  }
+
+  .popup-content a:hover {
+    color: #ff5733;
+    text-shadow: 0 0 8px #ff5733aa;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: #f6d743;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('BG.webp') center center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: clamp(2rem, 6vw, 4.5rem);
+    letter-spacing: 2px;
+    line-height: 1.3;
+    animation: glow 1.5s ease-in-out infinite alternate;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .hero-subline {
+    margin-top: 20px;
+    font-size: clamp(1rem, 4vw, 1.8rem);
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(90deg, #ff5733, #f6d743, #33ff57, #33c1ff, #ff33aa);
+    background-size: 300% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: runningGradient 6s linear infinite;
+  }
+
+  @keyframes runningGradient {
+    0% { background-position: 0% }
+    100% { background-position: 300% }
+  }
+
+  .primary-btn {
+    margin-top: 25px;
+    padding: 14px 36px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #111;
+    background: linear-gradient(135deg, #f6d743, #ffd700, #fff8d6);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), inset 0 1px 4px rgba(255,255,255,0.6);
+    backdrop-filter: blur(8px);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .primary-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.6) 50%,
+      rgba(255, 255, 255, 0) 70%
+    );
+    transition: all 0.6s ease;
+  }
+
+  .primary-btn:hover::before {
+    left: 100%;
+  }
+
+  .primary-btn:hover {
+    background: linear-gradient(135deg, #ffb700, #ff5733);
+    color: #fff;
+    box-shadow: 0 10px 30px rgba(255, 87, 51, 0.4);
+    transform: translateY(-2px) scale(1.03);
+  }
+
+  @keyframes glow {
+    from { text-shadow: 0 0 5px #000, 0 0 10px #00000088; }
+    to   { text-shadow: 0 0 5px #ff5733, 0 0 20px #ff5733aa; }
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .top-banner .left {
+      font-size: 1.2rem;
+    }
+    .popup-content h2 {
+      font-size: 1.5rem;
+    }
+    .popup-content a {
+      font-size: 1rem;
+    }
+    .hero h1 {
+      font-size: 1.8rem;
+      line-height: 1.4;
+      max-width: 95%;
+    }
+    .hero-subline {
+      font-size: 1rem;
+      margin-top: 15px;
+    }
+  }
+</style>
+
+<!-- Script -->
+<script>
+  const menuBtn = document.getElementById("menuBtn");
+  const popup = document.getElementById("popup");
+  const closeBtn = document.getElementById("closeBtn");
+
+  // Open popup
+  function openPopup() {
+    popup.style.display = "flex";
+  }
+
+  menuBtn.addEventListener("click", openPopup);
+  closeBtn.addEventListener("click", () => {
+    popup.style.display = "none";
+  });
+
+  window.addEventListener("click", (e) => {
+    if (e.target === popup) {
+      popup.style.display = "none";
+    }
+  });
+</script>
 
 
 <!-- 🔥 ACHIEVEMENTS SECTION -->
@@ -541,9 +690,6 @@
 
 
 
-
-
-
 <!-- ABOUT SECTION -->
 <section id="about" class="about-section">
   <div class="container">
@@ -551,14 +697,14 @@
       <img src="about.webp" alt="Gym Image">
     </div>
     <div class="about-content">
-      <h2 class="section-title" data-aos="fade-up">About <span>Blackfit</span></h2>
+      <h2 class="section-title" data-aos="fade-up">About <span>Blackfit Gym & Pain-Free Stretching Expert!</span></h2>
       <p>
-        At <strong>Blackfit Unisex Gym</strong>, we’re more than just a fitness center, we’re a community built on strength, wellness, and transformation. Whether you're a beginner or a pro, our expert coaches and modern equipment are here to help you crush your fitness goals.
+        At <strong>Blackfit Unisex Gym</strong> , we believe fitness is not just about lifting weights,
+         it’s about building strength, flexibility, and living pain-free. Along with state-of-the-art equipment and expert coaching,
+         we specialize in <strong>Pain-Free Stretching </strong> techniques designed to improve mobility, correct posture, and prevent injuries.
       </p>
-      <p>
-        Join a motivating environment where every rep takes you one step closer to a better you. Your fitness journey begins here!
-      </p>
-      <button class="founder-btn" onclick="document.getElementById('founderModal').style.display='flex'">Meet the Founder</button>
+
+      <button class="founder-btn" onclick="document.getElementById('founderModal').style.display='flex'">Meet the Expert</button>
     </div>
   </div>
 </section>
@@ -566,8 +712,7 @@
 <!-- FOUNDER MODAL -->
 <div id="founderModal" class="modal">
   <div class="modal-content">
-    <span class="close" onclick="document.getElementById('founderModal').style.display='none'">&times;</span>
-    
+
     <div class="modal-body">
       <div class="left">
         <img src="founder.JPG" alt="Founder Arulraj J" class="founder-img">
@@ -576,15 +721,14 @@
         <h3>Arulraj J</h3>
         
         <div class="designation-box">
-          <h4>Founder & Body Physique Transformation Specialist </h4>
-          <p>Certified Fitness Trainer | Brand Ambassador – Team BOSS Fitness Academy</p>
+          <h4>Founder & Body Physique Transformation Specialist</h4>
+          <p> Brand Ambassador | Team BOSS Fitness Academy | Certified Fitness Trainer </p>
         </div>
 
         <p class="description">
           Specializing in <strong>CrossFit</strong>, <strong>TRX</strong>, <strong>HIIT</strong>, <strong>Weight Loss</strong>,
-          <strong>Toning</strong>, <strong>Body Figuring/Posture correction</strong> <strong>, Bodybuilding contest preparation</strong>,
-          and <strong>Aesthetic Specialist Coach</strong>.
-          Dedicated to transforming lives through customized training, professional guidance, and motivation that lasts.
+          <strong>Toning</strong>, <strong>Body Figuring/Posture correction</strong>, <strong>Bodybuilding contest preparation, Pain-Free Stretching Expert</strong>,
+          and <strong>Aesthetic Specialist</strong>.
         </p>
       </div>
     </div>
@@ -597,6 +741,10 @@
       <img src="IAO.webp" alt="Certificate 4">
       <img src="Welcare.webp" alt="Certificate 5">
     </div>
+
+    <!-- Close Button at Bottom -->
+    <span class="close" onclick="document.getElementById('founderModal').style.display='none'">&times;</span>
+
   </div>
 </div>
 
@@ -651,10 +799,12 @@
     font-size: 18px;
     cursor: pointer;
     transition: background 0.3s ease;
+    display: block;
   }
 
   .founder-btn:hover {
     background-color: #f6d743;
+    color: #111;
   }
 
   .modal {
@@ -667,7 +817,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    overflow-y: auto; /* Enables scroll on small screens */
+    overflow-y: auto;
   }
 
   .modal-content {
@@ -685,18 +835,32 @@
     overflow-y: auto;
   }
 
+  /* ✅ Close Button at Bottom */
   .close {
-    position: absolute;
-    right: 20px;
-    top: 15px;
-    font-size: 28px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    margin: 20px auto 0;
+    transition: 0.3s ease;
+  }
+
+  .close:hover {
+    background: #f6d743;
+    color: #111;
   }
 
   .modal-body {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
   }
 
   .modal-body .left {
@@ -721,7 +885,7 @@
 
   .modal-body .right p {
     margin: 8px 0;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .designation-box {
@@ -772,7 +936,7 @@
   @media (max-width: 768px) {
     .about-section .container {
       flex-direction: column;
-      text-align: left;
+      text-align: center;
     }
 
     .about-image,
@@ -787,7 +951,12 @@
 
     .about-content p {
       font-size: 16px;
-      text-align: justify;
+      text-align: center; 
+    }
+
+    .founder-btn {
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .about-image {
@@ -796,27 +965,23 @@
 
     .modal-body {
       flex-direction: column;
-    }
-
-    .modal-body .left,
-    .modal-body .right {
-      flex: 1 1 100%;
+      text-align: center;
     }
 
     .modal-body .right h3 {
-      font-size: 24px;
+      font-size: 18px;
       text-align: center;
     }
 
     .designation-box h4 {
-      font-size: 18px;
+      font-size: 17px;
       text-align: center;
     }
 
     .designation-box p,
     .description {
       font-size: 14px;
-      text-align: justify;
+      text-align: center; 
     }
 
     .certificates {
@@ -829,6 +994,13 @@
       max-width: 45%;
       height: 90px;
     }
+
+    /* ✅ Mobile Close Button */
+    .close {
+      font-size: 28px;
+      width: 44px;
+      height: 44px;
+    }
   }
 </style>
 
@@ -838,62 +1010,79 @@
 
 <section class="why-choose-us">
   <div class="container">
-    <h2 class="section-title" data-aos="fade-up">Why Choose <span>Blackfit</span>?</h2>
-    <div class="feature-grid">
+    <h2 class="section-title" data-aos="fade-up">Why Choose <span>Us</span>?</h2><br>
+    <div class="feature-grid"> 
 
       <!-- Feature 1 -->
       <div class="feature-card" data-aos="zoom-in" data-aos-delay="100">
         <div class="icon">
-
-                    <img src="https://img.icons8.com/fluency-systems-filled/48/FFD700/scale.png" alt="Weight Loss Gain Icon" />
+          <img src="weight-loss.png" alt="Weight Loss Gain Icon" />
         </div>
-        <h3>Body Physique Weight Loss <br> Gain Training</h3>
+        <h3>Body Physique Weight Loss / Weight Gain</h3>
         <p>Customized fitness plans for healthy weight loss or muscle gain transformation.</p>
       </div>
 
       <!-- Feature 2 -->
       <div class="feature-card" data-aos="zoom-in" data-aos-delay="200">
         <div class="icon">
-                    <img src="diet.png" alt="Tone Shape Icon" />
+          <img src="diet.png" alt="Tone Shape Icon" />
         </div>
-        <h3>Body Figuring / Posture <br>corrections</h3>
+        <h3>Body Shaping & Toning Corrections</h3>
         <p>Transform your physique with personalized shaping and body-toning workouts.</p>
       </div>
 
       <!-- Feature 3 -->
       <div class="feature-card" data-aos="zoom-in" data-aos-delay="300">
         <div class="icon">
-          <img src="https://img.icons8.com/fluency-systems-filled/48/FFD700/health-graph.png" alt="PCOD PCOS Icon" />
+          <img src="stretch-icon.png" alt="Pain-Free Stretching Icon">
         </div>
-        <h3>PCOD / PCOS / Post-Pregnancy <br>Weight Loss Training</h3>
-        <p>Specialized in manage PCOD/PCOS(Post Pregnancy) naturally with workout & nutrition guidance.</p>
+        <h3>Pain-Free Stretching & Recovery</h3>
+        <p>Specialized stretching techniques that improve flexibility, correct posture, and help relieve body pain safely.</p>
       </div>
 
       <!-- Feature 4 -->
       <div class="feature-card" data-aos="zoom-in" data-aos-delay="400">
         <div class="icon">
-          <img src="https://img.icons8.com/fluency-systems-filled/48/FFD700/laptop.png" alt="Online Training Icon" />
+          <img src="https://img.icons8.com/fluency-systems-filled/48/FFD700/baby.png" alt="Post Pregnancy Icon" />
         </div>
-        <h3>General & Personal Training, <br> Online / Offline</h3>
-        <p>Train with us from anywhere, live fitness coaching and progress tracking online.</p>
+        <h3>PCOD / PCOS & Post-Pregnancy Weight Loss Guide</h3>
+        <p>Safe and effective workouts tailored for womens to regain strength and fitness.</p>
       </div>
 
       <!-- Feature 5 -->
       <div class="feature-card" data-aos="zoom-in" data-aos-delay="500">
         <div class="icon">
-          <img src="https://img.icons8.com/fluency-systems-filled/48/FFD700/dumbbell.png" alt="Latest Equipment Icon" />
+          <img src="https://img.icons8.com/fluency-systems-filled/48/FFD700/laptop.png" alt="Online Training Icon" />
         </div>
-        <h3>Train with <br>Advanced-Level Machines</h3>
-        <p>Get access to the most modern and high-end fitness machines.</p>
+        <h3>General & Personal Training Online / Offline</h3>
+        <p>Train with us from anywhere with live coaching and progress tracking.</p>
       </div>
 
       <!-- Feature 6 -->
       <div class="feature-card" data-aos="zoom-in" data-aos-delay="600">
         <div class="icon">
+          <img src="https://img.icons8.com/fluency-systems-filled/48/FFD700/dumbbell.png" alt="Latest Equipment Icon" />
+        </div>
+        <h3>Train with <br> Advanced-Level Machines</h3>
+        <p>Get access to the most modern and high-end fitness machines.</p>
+      </div>
+
+      <!-- Feature 7 -->
+      <div class="feature-card" data-aos="zoom-in" data-aos-delay="700">
+        <div class="icon">
           <img src="fitness-coach-icon.png" alt="Expert Trainers Icon" />
         </div>
         <h3>Trained by <br> Expert Coaches</h3>
-        <p>Train under certified professionals to crush your goals efficiently.</p>
+        <p>Certified professionals guide you with tailored programs to achieve your goals efficiently.</p>
+      </div>
+
+      <!-- Feature 8 -->
+      <div class="feature-card" data-aos="zoom-in" data-aos-delay="800">
+        <div class="icon">
+          <img src="https://img.icons8.com/fluency-systems-filled/48/FFD700/apple.png" alt="Diet & Nutrition Icon" />
+        </div>
+        <h3>100% Nature <br> Diet & Nutrition Guidance</h3>
+        <p>Personalized diet plans to complement your fitness routine for maximum results.</p>
       </div>
 
     </div>
@@ -922,7 +1111,7 @@
 
 .feature-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   justify-items: center;
 }
@@ -1014,26 +1203,64 @@
 <section class="transformation-slider-section">
   <div class="container">
     <h2 class="section-title" data-aos="fade-up">Real <span>Transformations</span></h2>
-    
-    <div class="slider-wrapper">
-      <button class="nav-btn prev-btn">❮</button>
 
-      <div class="slider">
+    <div class="slider-wrapper">
+      <button class="nav-btn prev-btn" aria-label="Previous">❮</button>
+
+      <div class="slider" id="transformations">
+        <!-- Slide 1 -->
         <div class="slide" data-index="0">
           <img src="Trans1.jpg" alt="Transformation 1">
           <div class="caption">💪 35 Days | 12.5 kg Loss</div>
         </div>
+        <!-- Slide 2 -->
         <div class="slide" data-index="1">
           <img src="Trans2.jpg" alt="Transformation 2">
           <div class="caption">🔥 18 kg Fat Loss</div>
         </div>
+        <!-- Slide 3 -->
         <div class="slide" data-index="2">
           <img src="Trans3.jpg" alt="Transformation 3">
           <div class="caption">⭐️ Incredible Difference</div>
         </div>
+        <!-- New Slide 4 -->
+        <div class="slide" data-index="3">
+          <img src="transform4.webp" alt="Transformation 4">
+          <div class="caption">⚡ Amazing Progress</div>
+        </div>
+        <!-- New Slide 5 -->
+        <div class="slide" data-index="4">
+          <img src="transform5.webp" alt="Transformation 5">
+          <div class="caption">🔥 Shredded Look</div>
+        </div>
+        <!-- New Slide 6 -->
+        <div class="slide" data-index="5">
+          <img src="transform6.webp" alt="Transformation 6">
+          <div class="caption">💥 Lean & Fit</div>
+        </div>
+        <!-- New Slide 7 -->
+        <div class="slide" data-index="6">
+          <img src="transform7.webp" alt="Transformation 7">
+          <div class="caption">⭐ True Dedication</div>
+        </div>
+        <!-- New Slide 8 -->
+        <div class="slide" data-index="7">
+          <img src="transform8.webp" alt="Transformation 8">
+          <div class="caption">💪 Hardcore Gains</div>
+        </div>
+        <!-- New Slide 9 -->
+        <div class="slide" data-index="8">
+          <img src="transform9.webp" alt="Transformation 9">
+          <div class="caption">🔥 Fat to Fit</div>
+        </div>
+        <!-- New Slide 10 -->
+        <div class="slide" data-index="9">
+          <img src="transform10.webp" alt="Transformation 10">
+          <div class="caption">⚡ Total Transformation</div>
+        </div>
       </div>
 
-      <button class="nav-btn next-btn">❯</button>
+      <button class="nav-btn next-btn" aria-label="Next">❯</button>
     </div>
   </div>
 </section>
@@ -1059,9 +1286,9 @@
 
 .slider-wrapper {
   position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  justify-content: center;
   gap: 10px;
 }
 
@@ -1077,27 +1304,28 @@
   transition: 0.3s ease;
 }
 
-.nav-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
+.nav-btn:hover { background: rgba(255, 255, 255, 0.2); }
 
+/* Make the track scrollable on ALL viewports */
 .slider {
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 20px;
-  overflow: hidden;
-  width: 100%;
-  max-width: 960px;
-  position: relative;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: 10px 4px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
 }
+.slider::-webkit-scrollbar { display: none; } /* WebKit */
 
 .slide {
-  flex: 0 0 300px;
-  opacity: 0.4;
-  filter: blur(4px);
-  transition: all 0.4s ease;
-  transform: scale(0.9);
+  flex: 0 0 300px;           /* card width on desktop */
+  scroll-snap-align: center; /* center each card when scrolling */
+  transition: transform .35s ease, filter .35s ease, opacity .35s ease;
+  opacity: .6;
+  filter: blur(2px);
+  transform: scale(.95);
   position: relative;
 }
 
@@ -1111,119 +1339,96 @@
 .slide img {
   width: 100%;
   border-radius: 16px;
+  display: block;
   box-shadow: 0 0 30px rgba(255, 215, 0, 0.2);
 }
 
 .caption {
   margin-top: 10px;
-  font-weight: bold;
+  font-weight: 700;
   color: #FFD700;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
 }
 
-/* Mobile Optimizations */
+/* Mobile tweaks */
 @media (max-width: 768px) {
   .transformation-slider-section .section-title {
     font-size: 2rem;
     margin-bottom: 40px;
   }
-
-  .slider-wrapper {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .slider {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    gap: 16px;
-    padding: 10px 24px; /* Added padding to show edges */
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .slide {
-    flex: 0 0 85%;
-    scroll-snap-align: center;
-    opacity: 1 !important;
-    filter: none !important;
-    transform: scale(1) !important;
-  }
-
-  .nav-btn {
-    display: none;
-  }
-
-  .caption {
-    font-size: 1rem;
-  }
+  .slide { flex: 0 0 85%; transform: scale(1); opacity: 1; filter: none; }
+  .nav-btn { display: none; }
+  .caption { font-size: 1rem; }
 }
 
 @media (max-width: 480px) {
-  .slide {
-    flex: 0 0 90%;
-  }
-
-  .caption {
-    font-size: 0.9rem;
-  }
+  .slide { flex: 0 0 90%; }
+  .caption { font-size: .95rem; }
 }
 
-/* Optional: Scroll hint */
+/* Optional: scroll hint on mobile */
 .slider::after {
   content: '⇠ Swipe ⇢';
-  position: absolute;
-  bottom: -30px;
-  font-size: 0.9rem;
-  color: #888;
+  position: sticky;
   left: 50%;
   transform: translateX(-50%);
+  bottom: -6px;
+  font-size: .9rem;
+  color: #888;
   display: none;
 }
-
-@media (max-width: 768px) {
-  .slider::after {
-    display: block;
-  }
-}
+@media (max-width: 768px) { .slider::after { display: block; } }
 </style>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const slides = document.querySelectorAll('.slide');
+document.addEventListener("DOMContentLoaded", () => {
+  const slider = document.getElementById('transformations');
+  const slides = Array.from(slider.querySelectorAll('.slide'));
   const nextBtn = document.querySelector('.next-btn');
   const prevBtn = document.querySelector('.prev-btn');
-  let current = 0;
 
-  function isMobile() {
-    return window.innerWidth <= 768;
+  // Utility: distance between slide starts (accounts for gap)
+  function stepSize() {
+    if (slides.length < 2) return slides[0]?.getBoundingClientRect().width || 300;
+    return slides[1].offsetLeft - slides[0].offsetLeft;
   }
 
-  function updateSlider() {
-    slides.forEach((slide, index) => {
-      slide.classList.remove('active');
-      if (!isMobile() && index === current) {
-        slide.classList.add('active');
-      }
+  // Scroll by exactly one card
+  function scrollBySlide(dir = 1) {
+    slider.scrollBy({ left: dir * stepSize(), behavior: 'smooth' });
+  }
+
+  // Mark the slide closest to the center as active
+  function updateActive() {
+    const center = slider.scrollLeft + slider.clientWidth / 2;
+    let closestIdx = 0;
+    let minDist = Infinity;
+    slides.forEach((s, i) => {
+      const start = s.offsetLeft + s.clientWidth / 2;
+      const d = Math.abs(start - center);
+      if (d < minDist) { minDist = d; closestIdx = i; }
     });
+    slides.forEach(s => s.classList.remove('active'));
+    slides[closestIdx]?.classList.add('active');
   }
 
-  nextBtn?.addEventListener('click', () => {
-    current = (current + 1) % slides.length;
-    updateSlider();
+  // Buttons
+  nextBtn?.addEventListener('click', () => scrollBySlide(1));
+  prevBtn?.addEventListener('click', () => scrollBySlide(-1));
+
+  // Keep active in sync with scroll & resize
+  slider.addEventListener('scroll', () => requestAnimationFrame(updateActive));
+  window.addEventListener('resize', () => requestAnimationFrame(updateActive));
+
+  // Keyboard arrows (desktop accessibility)
+  slider.setAttribute('tabindex', '0');
+  slider.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') { e.preventDefault(); scrollBySlide(1); }
+    if (e.key === 'ArrowLeft')  { e.preventDefault(); scrollBySlide(-1); }
   });
 
-  prevBtn?.addEventListener('click', () => {
-    current = (current - 1 + slides.length) % slides.length;
-    updateSlider();
-  });
-
-  updateSlider();
-  
-  // Optional: Update on window resize for active class
-  window.addEventListener('resize', updateSlider);
+  // Init
+  updateActive();
 });
 </script>
 
@@ -1612,24 +1817,34 @@ document.addEventListener("DOMContentLoaded", function () {
       color: #888;
     }
 
-    /* Scroll-to-top button */
-    .home-btn {
+    /* ========= Floating Action Buttons ========= */
+    .fab-container {
       position: fixed;
-      bottom: 25px;
-      right: 25px;
-
-      color: #ffffff;
-      
-      border-radius: 50%;
-      font-size: 20px;
-      text-decoration: none;
-      box-shadow: 0 0 15px rgba(246, 215, 67, 0.4);
-      transition: background 0.3s, transform 0.3s;
-      z-index: 999;
+      bottom: 22px;
+      right: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      z-index: 1500;
     }
 
-    .home-btn:hover {
-      background-color: #000000;
+    .fab-btn {
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: #111;
+      color: #f6d743;
+      font-size: 22px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: background 0.3s, color 0.3s, transform 0.2s;
+    }
+    .fab-btn:hover {
+      background: #f6d743;
+      color: #111;
       transform: scale(1.1);
     }
 
@@ -1638,16 +1853,13 @@ document.addEventListener("DOMContentLoaded", function () {
       .footer-column h3 {
         font-size: 18px;
       }
-
       .footer-links a {
         font-size: 16px;
       }
-
-      .home-btn {
-        font-size: 18px;
-        padding: 10px;
-        right: 15px;
-        bottom: 15px;
+      .fab-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
       }
     }
   </style>
@@ -1665,12 +1877,13 @@ document.addEventListener("DOMContentLoaded", function () {
           📞 +91 98941 00280
         </a>
       </p>
-      
+
       <p class="email-lower">
         ✉️ <a href="mailto:blackfitclub@gmail.com">blackfitclub@gmail.com</a>
       </p>
+
       <p>
-        <a href="https://share.google/a0tKeAQEwnMxQkzGs" target="_blank" style="text-decoration: none; color: inherit;">
+        <a href="https://maps.app.goo.gl/RZP1twE1x6bhCvakQ" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;">
           📍 Tiruppur, Tamil Nadu
         </a>
       </p>
@@ -1679,9 +1892,9 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="footer-column">
       <h3>Follow Us</h3>
       <div class="footer-links">
-        <a href="https://www.instagram.com/blackfit_unisex_gym" title="Instagram"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.facebook.com/BLACKFITGYM" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://youtube.com/@blackfitgym1557?si=qAGDqQGRMMI1pvQw" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/blackfit_unisex_gym" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/BLACKFITGYM" target="_blank" rel="noopener" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://youtube.com/@blackfitgym1557?si=qAGDqQGRMMI1pvQw" target="_blank" rel="noopener" title="YouTube"><i class="fab fa-youtube"></i></a>
       </div>
     </div>
   </div>
@@ -1690,25 +1903,207 @@ document.addEventListener("DOMContentLoaded", function () {
   <p class="footer-bottom">&copy; 2025 Blackfit Unisex Gym. All rights reserved.</p>
 </footer>
 
-<!-- Floating Home Button -->
-<a href="#hero" class="home-btn" title="Back to Top">
-  <i class="fas fa-home"></i>
-</a>
+<!-- ========= Floating Always-Visible Buttons ========= -->
+<div class="fab-container">
+  <a href="https://www.instagram.com/blackfit_unisex_gym" target="_blank" rel="noopener" class="fab-btn" title="Instagram" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://wa.me/919894100280" target="_blank" rel="noopener" class="fab-btn" title="WhatsApp" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="tel:+919894100280" class="fab-btn" title="Call Us" aria-label="Phone">
+    <i class="fas fa-phone"></i>
+  </a>
+</div>
 
-<!-- FontAwesome (for icons) -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<!-- Font Awesome (icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<!-- AOS JS -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
-<!-- AOS Animate on Scroll CDN -->
+<!-- AOS (Animate On Scroll) -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="popup1" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closePopup('popup1')">&times;</span>
+    <h2> Pain Free Wellness 🌿</h2><br>
+    <p>
+      Experience the recovery & gentle relief without artificial supplements.  
+      A holistic approach combining stretching, posture alignment, and  
+      wellness-focused practices designed to reduce pain naturally & enhance your overall well-being.
+    </p>
+    <button class="primary-btn" onclick="openPopup('popup2')">🔎 Check Your Pain</button>
+  </div>
+</div>
+
+<!-- 💆 Second Popup -->
+<div id="popup2" class="popup">
+  <div class="popup-content wide">
+    <span class="close" onclick="closePopup('popup2')">&times;</span>
+    <h2>💆 Full Body Pain Relief & Stretching</h2>
+    <p class="subtitle">(Without any artificial supplements)</p>
+
+    <div class="pain-list">
+      <!-- 🔹 Full Body Pain Relief -->
+      <div class="pain-card">
+        <img src="Full Body Pain Relief.webp" alt="Full Body Pain Relief">
+        <h3>Full Body Pain Relief</h3>
+        <p>Gentle recovery for total body relaxation and relief.</p>
+        <a href="https://wa.me/9894100280?text=New%20Booking%20Request:%0AName:%20[Your%20Name]%0APhone:%20[Your%20Phone]%0AService:%20Full%20Body%20Pain%20Relief%0ANotes:%20[Preferred%20Time]" 
+           target="_blank" class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i> ✨ Book Relief Now
+        </a>
+      </div>
+
+      <!-- 🔹 Sports Injury -->
+      <div class="pain-card">
+        <img src="Sports Injury.webp" alt="Sports Injury">
+        <h3>Sports Injury</h3>
+        <p>Special care to recover mobility and prevent stiffness.</p>
+        <a href="https://wa.me/9894100280?text=New%20Booking%20Request:%0AName:%20[Your%20Name]%0APhone:%20[Your%20Phone]%0AService:%20Sports%20Injury%0ANotes:%20[Preferred%20Time]" 
+           target="_blank" class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i> 🏋️ Begin Healing
+        </a>
+      </div>
+
+      <!-- 🔹 Posture Correction -->
+      <div class="pain-card">
+        <img src="Posture Correction.webp" alt="Posture Correction">
+        <h3>Posture Correction</h3>
+        <p>Improve alignment and reduce long-term pain naturally.</p>
+        <a href="https://wa.me/9894100280?text=New%20Booking%20Request:%0AName:%20[Your%20Name]%0APhone:%20[Your%20Phone]%0AService:%20Posture%20Correction%0ANotes:%20[Preferred%20Time]" 
+           target="_blank" class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i> 🌟 Correct My Posture
+        </a>
+      </div>
+
+      <!-- 🔹 Wheezing Problem -->
+      <div class="pain-card">
+        <img src="Wheezing.webp" alt="Vizzing Problem">
+        <h3>Wheezing Problem</h3>
+        <p>Relief and care for circulation-related discomfort.</p>
+        <a href="https://wa.me/9894100280?text=New%20Booking%20Request:%0AName:%20[Your%20Name]%0APhone:%20[Your%20Phone]%0AService:%20Vizzing%20Problem%0ANotes:%20[Preferred%20Time]" 
+           target="_blank" class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i> 💨 Book Wheezing Care
+        </a>
+      </div>
+
+      <!-- 🔹 Fatty Liver Recovery -->
+      <div class="pain-card">
+        <img src="Fatty Liver Recovery.webp" alt="Fatty Liver Recovery">
+        <h3>Fatty Liver Recovery</h3>
+        <p>Natural recovery support for liver and energy wellness.</p>
+        <a href="https://wa.me/9894100280?text=New%20Booking%20Request:%0AName:%20[Your%20Name]%0APhone:%20[Your%20Phone]%0AService:%20Fatty%20Liver%20Recovery%0ANotes:%20[Preferred%20Time]" 
+           target="_blank" class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i> 🌿 Recover My Liver
+        </a>
+      </div>
+
+      <!-- 🔹 Sciatica -->
+      <div class="pain-card">
+        <img src="Sciatica.webp" alt="Sciatica">
+        <h3>Sciatica</h3>
+        <p>Targeted pain relief for nerve and lower back issues.</p>
+        <a href="https://wa.me/9894100280?text=New%20Booking%20Request:%0AName:%20[Your%20Name]%0APhone:%20[Your%20Phone]%0AService:%20Sciatica%0ANotes:%20[Preferred%20Time]" 
+           target="_blank" class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i> 💺 Ease Sciatica Now
+        </a>
+      </div>
+
+      <!-- 🔹 Disc Bulge Recovery -->
+      <div class="pain-card">
+        <img src="Disc Bulge.webp" alt="Disc Bulge Recovery">
+        <h3>Disc Bulge Recovery</h3>
+        <p>Safe guidance for disc healing and spine wellness.</p>
+        <a href="https://wa.me/9894100280?text=New%20Booking%20Request:%0AName:%20[Your%20Name]%0APhone:%20[Your%20Phone]%0AService:%20Disc%20Bulge%20Recovery%0ANotes:%20[Preferred%20Time]" 
+           target="_blank" class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i> 🌀 Recover My Disc
+        </a>
+      </div>
+
+      <!-- 🔹 Vein Progress -->
+      <div class="pain-card">
+        <img src="Vein Progress.webp" alt="Vein Progress">
+        <h3>Vein Progress</h3>
+        <p>Improving circulation & vein health for long-term relief.</p>
+        <a href="https://wa.me/9894100280?text=New%20Booking%20Request:%0AName:%20[Your%20Name]%0APhone:%20[Your%20Phone]%0AService:%20Vein%20Progress%0ANotes:%20[Preferred%20Time]" 
+           target="_blank" class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i> 🩸 Improve Vein Health
+        </a>
+      </div>
+
+      <!-- 🔹 Neck / Cervical / Ankle -->
+      <div class="pain-card">
+        <img src="Neck.webp" alt="Neck Cervical Ankle">
+        <h3>Neck • Cervical • Ankle</h3>
+        <p>Targeted pain relief for sensitive joints and muscles.</p>
+        <a href="https://wa.me/9894100280?text=New%20Booking%20Request:%0AName:%20[Your%20Name]%0APhone:%20[Your%20Phone]%0AService:%20Neck%20Cervical%20Ankle%0ANotes:%20[Preferred%20Time]" 
+           target="_blank" class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i> 🦶 Book Relief Now
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 💅 Styles -->
+<style>
+/* Popup Base */
+.popup { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.8); z-index: 9999; justify-content: center; align-items: center; padding: 20px; }
+.popup-content { background: #fff; color: #222; border-radius: 15px; padding: 25px; max-width: 600px; width: 100%; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.3); position: relative; }
+.popup-content.wide { max-width: 950px; width: 100%; }
+.popup h2 { font-size: 22px; color: #1a1a1a; margin-bottom: 8px; }
+.subtitle { font-size: 14px; color: #666; margin-bottom: 18px; }
+.close { position: absolute; top: 15px; right: 20px; font-size: 22px; cursor: pointer; color: #555; }
+
+/* Buttons */
+.primary-btn { padding: 12px 22px; background: linear-gradient(45deg,#009688,#4caf50); color: #fff; font-size: 16px; font-weight: 600; border: none; border-radius: 30px; cursor: pointer; transition: all 0.3s; }
+.primary-btn:hover { box-shadow: 0 0 15px #4caf50; }
+
+.whatsapp-btn { display: inline-block; padding: 10px 18px; background: linear-gradient(45deg,#25D366,#128C7E); color: white; font-size: 15px; font-weight: 600; border-radius: 40px; text-decoration: none; transition: 0.3s; box-shadow: 0 4px 12px rgba(37,211,102,0.3); }
+.whatsapp-btn:hover { box-shadow: 0 0 15px rgba(37,211,102,0.6); transform: translateY(-2px); }
+
+/* Service Cards */
+.pain-list { display: grid; grid-template-columns: repeat(auto-fit,minmax(230px,1fr)); gap: 16px; }
+.pain-card { background: #fafafa; border-radius: 15px; padding: 15px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+.pain-card img { width: 100%; height: 150px; object-fit: cover; border-radius: 12px; margin-bottom: 10px; }
+.pain-card h3 { font-size: 16px; margin-bottom: 6px; color: #111; }
+.pain-card p { font-size: 13px; color: #666; margin-bottom: 10px; }
+
+/* Mobile Friendly */
+@media(max-width:600px){
+  .popup-content { padding: 20px; }
+  .popup-content.wide { padding: 15px; }
+  .pain-card img { height: 120px; }
+  .pain-card h3 { font-size: 15px; }
+  .pain-card p { font-size: 12px; }
+}
+</style>
+
+<!-- ⚡ Script -->
+<script>
+function openPopup(id){ document.getElementById(id).style.display="flex"; }
+function closePopup(id){ document.getElementById(id).style.display="none"; }
+window.onload = function(){ setTimeout(()=>{ openPopup('popup1'); },5000); };
+</script>
+
+<!-- Font Awesome for WhatsApp Icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
 
 </body>
 </html>
